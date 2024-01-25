@@ -169,6 +169,7 @@ public class Main {
 
         WebElement securityCode = webDriver.findElement(By.name("securityCode"));
 
+        System.out.println("Please enter security code:");
         String code = scanner.nextLine();
         securityCode.sendKeys(code);
 
